@@ -35,10 +35,6 @@ Bee Class will be a representation of a single drone, with its dimensions, detec
 properties of the drone may be implemented in the simulation in the future, such as speed, payload, weight, etc.
 
 
-
-
-
-
 Phase 2: Creation of basic backend elements of the simulation
 Deadline 1/22/2024
 - Bee
@@ -46,10 +42,20 @@ Deadline 1/22/2024
 - MileCube
 - FeetCube
 
-Phase 3: Researching Graphic development of simulator
-Deadline 1/30/2024
--
+Phase 3: Drone ability development
+Deadline 1/25/2024
+- Implement drone functions, actions, and decisions. Change of drone detection and communication radiuses when in motion.
 
+
+Phase 4: Researching and implementing Graphic User Interface development of simulator
+Deadline 2/01/2024
+- Create a simple 2d overhead, using elevation on regular maps
+- Create drone controls in GUI
+
+Phase 4: Researching 3D, refining Graphic User Interface
+Deadline Expect 2/20/2024 - 3/10/2024
+- Add a 3d GUI representation that is rotatable, while consistently moving.
+- This is the hardest part of the project, may require outside application of gui libraries and other sources.
 
 
 
