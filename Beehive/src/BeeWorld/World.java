@@ -15,19 +15,10 @@ package BeeWorld;
  */
 public class World
 {
-	public MileCube[][][] area;
-	public World(int length, int height)
+	public Grid[] map;
+	public World(int length, int height, String units, int quad)
 	{
-		for(int i = 0; i < length; i++)
-		{
-			for(int j = 0; j < length; j++)
-			{
-				for(int k = 0; k < height; k++)
-				{
-					area[i][j][k] = new MileCube();
-				}
-			}
-		}
+		this.map = new Grid[4];
 	}
 	public retrieveCoordinates()
 	{
