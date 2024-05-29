@@ -20,14 +20,13 @@ import java.lang.Math;
  * @param size: the size of drone in inches for x, y, or z
  * measurements. x = front length, y = side length, 
  * z = height
- * @param range: number of miles that drone can see
- * @param range2: number of miles
+ * @param vRange: number of miles that drone can see
+ * @param tRange: number of miles that a drone can communicate
  */
 public class Bee extends Actor{
-	//create a grid for radio range
-	public World radio;
-	public World camera; 
-	public Bee(Coordinates pos, String loy, int radioRad)
+	//create a grid for overall range
+	public World range
+	public Bee(Coordinates pos, String loy, int range)
 	{
 		this.position = pos;
 		this.loyalty = loy;
